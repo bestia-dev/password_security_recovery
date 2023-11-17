@@ -31,7 +31,7 @@ Only with that "key" we can access our private things. That way if a thief wants
 ## Passwords
 
 Passwords are easy. Everybody understands passwords.  
-But many don't understand that password don't live alone. Passwords are always tightly coupled with a username and a "service".  
+But many don't understand that passwords don't live alone. Passwords are always tightly coupled with a username and a "service".  
 A very simple analogy is that:
 
 - the "service" is like a house
@@ -41,6 +41,8 @@ A very simple analogy is that:
 ## Good practice
 
 All door keys are different in real life. You cannot open all the doors in a street with the same key. The same should apply for passwords too. Most of the passwords must be unique, never reuse the same password for different things. The danger is that if a hacker finds one of your passwords, he will try it on every service. If the password is the same, he will have access to everything. If the passwords are different he will have access limited just to one single service. At least for the most important passwords make them different.  
+
+Security is never 100%. Everything can be hacked eventually. The difference is how difficult it is to hack. If it is too damn difficult, the hacker will just leave it and find an easier target. More important the secrets are, more resources will the hackers deploy. Cracking two password one after the other is more difficult than cracking only one to access an important secret. Security is like an onion, it got layers.
 
 ## First class passwords
 
@@ -63,22 +65,31 @@ The "first class" passwords are used to protect:
 - normal private files (Dropbox, GDrive, OneDrive, Windows account)
 
 Fortunately there are not a lot of these "first class" passwords.
-These passwords are so important that you MUST learn them by heart and never forget them. The easiest way to learn is by using them often. If you use a password once a week you will not forget it. If you use it once a year it is 100% sure you will forget it. Never use any password manager to store them, because that way you will forget them and it is dangerous.
+These passwords are so important that you MUST learn them by heart and never forget them. The easiest way to learn is by using them often. If you use a password once a week you will not forget it. If you use it once a year it is 100% sure you will forget it. Never use any password manager to store them, because that way you will forget them and it is dangerously prone to hacking.
 
 You must somehow be able to store these super important passwords, but never do it in a digital form because it can be hacked. Write them on a paper and store it in a bank vault or hide them really really good. Like your life depends on it!
+
+Obfuscate the passwords in this list. Make it look like they are not passwords at all. Don't write for what service they are used near them. Be mysterious. Be an 007 spy agent.  
 
 ## Second class passwords
 
 And then there are "second class" passwords. You can relax here. They don't protect anything valuable. You can use a "password manager" for them. There is a lot of these passwords, more then 100. Everywhere on the internet you create an account, use the password manager to store it. But always ask yourself if you are creating a "second class" or a "first class" password. The answer to this question must be precise. If there is danger to loose money if hacked then this is a "first class" password and must not go into the password manager.
 
+## Password managers
 
+Passwords managers are great for "second class" passwords. When creating a new account for a service that does not involve money or digital identity, let the password manager to create a new random password. It is a bunch of letters and numbers that nobody can remember. And you don't have to. You will always use the password manager to login to these services. That way all the passwords will be different and very difficult to crack.
 
+But be aware that also password managers can be hacked. It is difficult, but possible. SO refrain from storing "first class" passwords in them. These passwords are too much important!
 
+There are many different password managers: dashlane, 1password, keeper, bitwarden, even google and probably microsoft have their own password managers. I don't know which one to recommend. Try reading the reviews on internet. Security is hard and you don't know whom to trust.
 
+Some password managers can also store files. If not, then you will need an encrypted vault.
 
-## Passwor managers
+## Encrypted vault for files
 
-Just that everybody regularly forget their passwords
+Password are not the only secrets we have. There are files that we want to store securely away from the reach of hackers.
+
+encrypted vault like VeraCrypt, Cryptomator or similar.
 
 
 ## 2FA - two factor authentication
