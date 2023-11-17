@@ -79,7 +79,7 @@ And then there are "second class" passwords. You can relax here. They don't prot
 
 Passwords managers are great for "second class" passwords. When creating a new account for a service that does not involve money or digital identity, let the password manager to create a new random password. It is a bunch of letters and numbers that nobody can remember. And you don't have to. You will always use the password manager to login to these services. That way all the passwords will be different and very difficult to crack.
 
-But be aware that also password managers can be hacked. It is difficult, but possible. SO refrain from storing "first class" passwords in them. These passwords are too much important!
+But be aware that also password managers can be hacked. It is difficult, but possible. So refrain from storing "first class" passwords in them. These passwords are too much important!
 
 There are many different password managers: dashlane, 1password, keeper, bitwarden, even google and probably microsoft have their own password managers. I don't know which one to recommend. Try reading the reviews on internet. Security is hard and you don't know whom to trust.
 
@@ -87,14 +87,64 @@ Some password managers can also store files. If not, then you will need an encry
 
 ## Encrypted vault for files
 
-Password are not the only secrets we have. There are files that we want to store securely away from the reach of hackers.
+Password are not the only secrets we have. There are files that we want to store securely away from the reach of hackers. For that we use encrypted vaults like VeraCrypt, Cryptomator or similar. I cannot recommend any specific one, because I don't know whom to trust. It is your job to read reviews on internet and choose the one you feel you can trust. Security is hard.
 
-encrypted vault like VeraCrypt, Cryptomator or similar.
+In the encrypted vault you can store for example the certificates from the government in the *.p12 files or configuration from programs that store password for ftp. Or maybe that photos from last summer that you don't want anybody to see. You can even store the backup of the password manager in there. Sure, it is already encrypted, but 2 passwords are better security then one password. You can store important documents from your bank. You don't want to left them laying around.
 
+Once the files are encrypted you can store the vault in Dropbox, OneDrive or GDrive. Nobody will see the files hidden in it.
+
+Warning: never forget the password for the encrypted vault. This is a "first class" password. Super important. Never save it in a password manager. So try to use it often to refresh your memory.
 
 ## 2FA - two factor authentication
 
+Oh, how easy was life before 2FA - two factor authentication. You just remember the password. On any computer in the world you could sit down, browse to your preferred internet web site and type the password. Boom. Done!
+
+But that was dangerous. What if this password was somehow cracked. There are many ways to crack it. (The explanation is not in scope for this tutorial.) The hacker could just use the password and you are hacked! If the service is you bank account, bye-bye your savings. Terrific!
+
+We need something more. Something that the hacker cannot have. A second authentication that is not stored anywhere. Or it is temporarily limited to just one minute and cannot be reused later. Enter 2FA - two factor authentication. It is complicated.
+
+## Email
+
+This method is rarely used. After entering the password, the web site would send you a verification email with a short secret code. You copy and paste this code into the second authentication. This is ok, because the hacker can have your password, but probably it does not have access to your email. Or has he?
+This short code is time limited and after a minute or so, you cannot reuse it.
+
+## SMS
+
+We have now more smartphone in the world then computers. Virtually everybody have a smartphone today. Smartphones and even dumb phones can receive SMS text messages.
+
+After entering the password, the web site would send you a verification SMS with a short secret code to your phone. You type this code into the second authentication. This is ok, because the hacker can have your password, but probably it does not have access to your phone. Or has he?
+This short code is time limited and after a minute or so, you cannot reuse it.
+But sometimes your phone had exhausted the battery or there is no signal coverage.
+
 ## authenticator
+
+Authenticators are little apps that calculate a short OTP one-time password that is time limited. They can run on the smartphone or on the computer. One example is Google Authenticator.
+
+You need to initialize the authenticator using the codes from the service. That makes the service and the local authenticator share the same secret. You must also use the same date and time, but all smartphones are already in sync with the atomic clocks.
+
+For 2FA you use the code from the Authenticator app. This is ok, because the hacker can have your password, but probably it does not have access to your authenticator app. Or has he?
+This short code is time limited and after a minute or so, you cannot reuse it.
+But sometimes you loose your phone, or it breaks, or malfunction or is stolen, or falls in the water,...
+
+## Password recovery
+
+Most of the "second class" passwords are super easy to recover if we forget them. Usually there is a button "forgot password". By clicking on it, the web site sends a recovery link to you email. Click on it and you can assign a new password. Easy and fast. The security assumption is that your email is not compromised by a hacker.
+
+But there are some places you cannot do that because they are too damn important. If you forget the password to your bank account you should probably go personally to the bank to recover it.  
+If you forget the password to your encrypted vault there is no way to recover it. Nobody can help you.  
+Some password managers have also no way to recover a forgotten master password. If you forget you cannot use it anymore.
+
+This is good, because recovering these passwords is extremely dangerous. These are "first class" passwords. But also forgetting the password is very dangerous. You loose everything! Take notice! Errors are not tolerated here.
+
+## 2FA recovery
+
+For most services today we have 2FA. It means we can still remember the password, but we can loose access to the second authentication code. This can happen in a moment. You loose or break your phone. Probably it is the only device with your 2FA method. Without it, you cannot login to your service.
+
+We need a way to recover from this. When you activate 2FA on any service, you have always an option to recover. You need to read it carefully and stay focused. There are different ways that are offered from different services.
+
+
+
+
 
 ## Digital identity
 
