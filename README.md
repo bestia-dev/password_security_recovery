@@ -95,6 +95,27 @@ Once the files are encrypted you can store the vault in Dropbox, OneDrive or GDr
 
 Warning: never forget the password for the encrypted vault. This is a "first class" password. Super important. Never save it in a password manager. So try to use it often to refresh your memory.
 
+## Password recovery
+
+Most of the "second class" passwords are super easy to recover if we forget them. Usually there is a button "forgot password". By clicking on it, the web site sends a recovery link to you email. Click on it and you can assign a new password. Easy and fast. The security assumption is that your email is not compromised by a hacker.
+
+But there are some places you cannot do that because they are too damn important. If you forget the password to your bank account you should probably go personally to the bank to recover it.  
+If you forget the password to your encrypted vault there is no way to recover it. Nobody can help you.  
+Some password managers have also no way to recover a forgotten master password. If you forget you cannot use it anymore.
+
+This is good, because recovering these passwords is extremely dangerous. These are "first class" passwords. But also forgetting the password is very dangerous. You loose everything! Take notice! Errors are not tolerated here.
+
+Don't despair. Just learn to live with the passwords in mind. It becomes your second nature.
+
+## Google account password recovery
+
+Google account is really important. Under the same password you have your gmail, gdrive, even a password manager, chrome profile and much more. This is a "first class" password. Google has come with many different recovery methods for their password.  
+Let's go to <google.com/accounts/recovery> to see what is possible. Then we will know what settings to change in our Google account. 
+
+Enter your email, next choose "Try another way". An email with a verification code will be sent to your "recovery email". The recovery email is not fully disclosed here. So only the person who entered it in settings really knows the recovery email. The hacker will not understand what is the recovery email from this.
+![google_email_recovery_1](https://www.dropbox.com/scl/fi/ztvunp9uho70m9mbylvf0/google_email_recovery_1.jpg?rlkey=mlingkz7dv343qtfekdvzc5lx&dl=0)
+
+
 ## 2FA - two factor authentication
 
 Oh, how easy was life before 2FA - two factor authentication. You just remember the password. On any computer in the world you could sit down, browse to your preferred internet web site and type the password. Boom. Done!
@@ -116,6 +137,10 @@ After entering the password, the web site would send you a verification SMS with
 This short code is time limited and after a minute or so, you cannot reuse it.
 But sometimes your phone had exhausted the battery or there is no signal coverage.
 
+## Pushed notification
+
+
+
 ## authenticator
 
 Authenticators are little apps that calculate a short OTP one-time password that is time limited. They can run on the smartphone or on the computer. One example is Google Authenticator.
@@ -126,15 +151,7 @@ For 2FA you use the code from the Authenticator app. This is ok, because the hac
 This short code is time limited and after a minute or so, you cannot reuse it.
 But sometimes you loose your phone, or it breaks, or malfunction or is stolen, or falls in the water,...
 
-## Password recovery
 
-Most of the "second class" passwords are super easy to recover if we forget them. Usually there is a button "forgot password". By clicking on it, the web site sends a recovery link to you email. Click on it and you can assign a new password. Easy and fast. The security assumption is that your email is not compromised by a hacker.
-
-But there are some places you cannot do that because they are too damn important. If you forget the password to your bank account you should probably go personally to the bank to recover it.  
-If you forget the password to your encrypted vault there is no way to recover it. Nobody can help you.  
-Some password managers have also no way to recover a forgotten master password. If you forget you cannot use it anymore.
-
-This is good, because recovering these passwords is extremely dangerous. These are "first class" passwords. But also forgetting the password is very dangerous. You loose everything! Take notice! Errors are not tolerated here.
 
 ## 2FA recovery
 
