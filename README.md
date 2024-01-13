@@ -5,7 +5,7 @@
 **How I manage my passwords, security and recovery**  
 ***version: 2023 date: 2023-11-17 author: [bestia.dev](https://bestia.dev) repository: [Github](https://github.com/bestia-dev/password_security_recovery)***  
 
-**WARNING !!! This is a public repository: never write or save secrets here!!!**
+**WARNING!!! This is a public repository: never write or save secrets here!!!**
 
 [//]: # (auto_cargo_toml_to_md end)
 
@@ -27,6 +27,8 @@ And sometimes there is mix of this two. We allow guests to use our bathroom, but
 
 To protect our private things we use keys, passwords or similar mechanisms.  
 Only with that "key" we can access our private things. That way if a thief wants to open a door, he cannot do it without the key. At least not easily and quietly.  
+
+Let's go down the rabbit hole!
 
 ## Passwords
 
