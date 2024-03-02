@@ -1,3 +1,5 @@
+[//]: # (auto_md_to_doc_comments segment start A)
+
 # password_security_recovery
 
 [//]: # (auto_cargo_toml_to_md start)
@@ -256,10 +258,6 @@ OOSN -> PE: recovery email
 
 Special gmail for recovery only that has NO 2FA. And you must never forget the password to that, because it makes all other services with 2FA recoverable.
 
-
-
-
-
 ## Open-source and free as a beer
 
 My open-source projects are free as a beer (MIT license).  
@@ -273,3 +271,5 @@ So I can drink a free beer for your health :-)
 [//github.com/bestia-dev](https://github.com/bestia-dev)  
 [//bestiadev.substack.com](https://bestiadev.substack.com)  
 [//youtube.com/@bestia-dev-tutorials](https://youtube.com/@bestia-dev-tutorials)  
+
+[//]: # (auto_md_to_doc_comments segment end A)
