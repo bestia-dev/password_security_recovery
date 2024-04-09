@@ -41,7 +41,9 @@ A very simple analogy is that:
 
 - the "service" is like a house
 - the username is like a specific door in that house
-- the password is like the key for that door for that house
+- the password is like the key to that door of that house
+
+Many synonyms for password mean roughly the same thing: passkey, passcode, passphrase, ... These words are not exclusive for only one security technique, but often they are used to make soft distinctions around different techniques.
 
 ## Good practice
 
@@ -208,7 +210,7 @@ Then define second step after entering your password.
 
 ## Certificates
 
-## SSH keys and passcodes
+## SSH keys and passphrases
 
 ## What to do when you lose everything
 
