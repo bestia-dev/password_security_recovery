@@ -14,6 +14,7 @@
 
  ![tutorial](https://img.shields.io/badge/tutorial-yellow)
  ![work_in_progress](https://img.shields.io/badge/work_in_progress-yellow)
+ ![License](https://img.shields.io/badge/license-MIT-blue.svg)
  ![password_security_recovery](https://bestia.dev/webpage_hit_counter/get_svg_image/1196500460.svg)
 
 Hashtags: #tutorial  
